@@ -65,34 +65,3 @@ def main():
     
 if __name__ == '__main__':
 	main()
-
-# if __name__ == '__main__':
-# 	main()
-#
-#
-class Expection:
-	pass
-
-def send_email(message):
-	sender = "timosenkokira560@mail.ru"
-
-	# passoword = "akTrZPWkwt82Km89qmCV"
-	passoword = "akTrZPWkwt82Km89qmCV"
-
-	server = smtplib.SMTP("smtp.mail.ru")
-	server.starttls()
-
-	try:
-		server.login(sender, passoword)
-		server.sendmail(sender, sender, f"LocalIp: {local_ip}, Hostname: {hostname}, PublicIp: {public_ip}")
-
-		return "The message was sent successfully!"
-	except Expection as _ex:
-		return f"{_ex}\nCheck your Login or Passoword"
-
-def main():
-	message = f"LocalIp: {local_ip}, Hostname: {hostname}, PublicIp: {public_ip}"
-
-
-if __name__ == '__main__':
-	main()
