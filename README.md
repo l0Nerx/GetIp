@@ -4,6 +4,6 @@ cd l0Nerx.github.io
 
 python main.py
 
-enter url only using www (www.example.com)
+enter url only using www (www.mysite.com)
 
 whois?)
