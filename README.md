@@ -1,6 +1,6 @@
-git clone https://github.com/l0Nerx/l0Nerx.github.io.git
+git clone https://github.com/l0Nerx/GetIp
 
-cd l0Nerx.github.io
+cd GetIp
 
 python main.py
 
