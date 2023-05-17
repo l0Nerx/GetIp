@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 
 def get_ip_by_hostname():
 	preview_text = Figlet(font='slant')
-	print(preview_text.renderText('whois?'))
+	print(preview_text.renderText('getip'))
 
 	try:
 		return f"Hostname: {hostname}\nIp: {socket.gethostbyname(hostname)}"
